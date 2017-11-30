@@ -1,4 +1,4 @@
-name: test-environment
+name: test
 
 dependencies:
   - python=3.6

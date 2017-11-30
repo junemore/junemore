@@ -11,6 +11,6 @@ install:
   - conda update -q conda
   - conda info -a
   - conda create -q -n environment.yml
-  - source activate test-environment
+  - source activate test
 script:
   - pytest tests.py
