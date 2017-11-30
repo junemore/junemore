@@ -38,3 +38,6 @@ def test_complex():
 
 def test_broken():
     1/0
+
+def mean():
+    
