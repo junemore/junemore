@@ -10,7 +10,7 @@ install:
   - conda config --set always_yes yes --set changeps1 no
   - conda update -q conda
   - conda info -a
-  - conda create -q -f environment.yml
+  - conda create -q -n environment.yml
   - source activate test-environment
 script:
   - pytest tests.py
